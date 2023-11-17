@@ -5,7 +5,7 @@ import subprocess
 subprocess.run(['pip', 'install', 'plotly'])
 
 import streamlit as st
-pip install pandas
+pandas==1.3.3
 import pandas as pd
 import plotly.express as px
 ch = {
