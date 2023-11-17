@@ -2,13 +2,13 @@
 import subprocess
 
 # Install Plotly using pip
-subprocess.run(['pip', 'install', 'plotly','pandas'])
+subprocess.run(['pip', 'install', 'plotly','express','pandas'])
 
 import streamlit as st
 
 
 import pandas as pd
-import plotly as px
+import plotly.express as px
 ch = {
     'chart': ['bar', 'line', 'scatter','box','histogram','pie'],
 }
