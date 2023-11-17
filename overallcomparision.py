@@ -1,10 +1,7 @@
-#cheapest overal comparision
 import streamlit as st
-import subprocess
-# Install Plotly using pip
-subprocess.run(['pip', 'install', 'plotly'])
-import subprocess
-subprocess.run(['pip', 'install', 'pandas'])
+import pandas as pd
+import plotly.express as px
+
 
 
 ch = {
