@@ -2,7 +2,7 @@
 import subprocess
 
 # Install Plotly using pip
-subprocess.run(['pip', 'install', 'plotly','express','pandas'])
+subprocess.run(['pip', 'install', 'plotly','ploty.express','pandas'])
 
 import streamlit as st
 
