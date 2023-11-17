@@ -4,11 +4,6 @@ import subprocess
 # Install Plotly using pip
 subprocess.run(['pip', 'install', 'plotly'])
 
-# Now you can import and use Plotly in your script
-import plotly.express as px
-
-# Rest of your Streamlit or Python script
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
